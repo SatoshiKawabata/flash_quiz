@@ -12,3 +12,24 @@ bin-release/
 
 .metadata
 bin-debug
+
+
+# global gitignore
+.metadata/
+*.swf
+*.swc
+*.DS_Store
+
+# DS_Store and project files
+*/.DS_Store
+#*/.project
+# */.actionScriptProperties
+
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+
+# Other files and folders
+.settings/
+.metadata/
